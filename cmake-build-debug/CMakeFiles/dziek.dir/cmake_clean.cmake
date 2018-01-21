@@ -6,7 +6,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/dziek.dir/people/Manager.cpp.o"
   "CMakeFiles/dziek.dir/people/teachers/Teacher.cpp.o"
   "CMakeFiles/dziek.dir/people/teachers/Teacher_manager.cpp.o"
-  "CMakeFiles/dziek.dir/Group.cpp.o"
+  "CMakeFiles/dziek.dir/groups/Group.cpp.o"
+  "CMakeFiles/dziek.dir/grades/Grade.cpp.o"
+  "CMakeFiles/dziek.dir/subjects/Subject.cpp.o"
   "dziek.pdb"
   "dziek"
 )

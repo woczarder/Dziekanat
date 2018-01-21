@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ceglarz/Dropbox/Projects/C++/dziek/Group.cpp" "/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/CMakeFiles/dziek.dir/Group.cpp.o"
+  "/home/ceglarz/Dropbox/Projects/C++/dziek/grades/Grade.cpp" "/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/CMakeFiles/dziek.dir/grades/Grade.cpp.o"
+  "/home/ceglarz/Dropbox/Projects/C++/dziek/groups/Group.cpp" "/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/CMakeFiles/dziek.dir/groups/Group.cpp.o"
   "/home/ceglarz/Dropbox/Projects/C++/dziek/main.cpp" "/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/CMakeFiles/dziek.dir/main.cpp.o"
   "/home/ceglarz/Dropbox/Projects/C++/dziek/people/Manager.cpp" "/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/CMakeFiles/dziek.dir/people/Manager.cpp.o"
   "/home/ceglarz/Dropbox/Projects/C++/dziek/people/Person.cpp" "/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/CMakeFiles/dziek.dir/people/Person.cpp.o"
@@ -12,6 +13,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/ceglarz/Dropbox/Projects/C++/dziek/people/students/Student_manager.cpp" "/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/CMakeFiles/dziek.dir/people/students/Student_manager.cpp.o"
   "/home/ceglarz/Dropbox/Projects/C++/dziek/people/teachers/Teacher.cpp" "/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/CMakeFiles/dziek.dir/people/teachers/Teacher.cpp.o"
   "/home/ceglarz/Dropbox/Projects/C++/dziek/people/teachers/Teacher_manager.cpp" "/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/CMakeFiles/dziek.dir/people/teachers/Teacher_manager.cpp.o"
+  "/home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject.cpp" "/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/CMakeFiles/dziek.dir/subjects/Subject.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

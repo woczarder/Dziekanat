@@ -84,13 +84,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/ceglarz/Dropbox/Projects/C++/dziek/Group.cpp">
+		<Unit filename="/home/ceglarz/Dropbox/Projects/C++/dziek/grades/Grade.cpp">
 			<Option target="dziek"/>
 		</Unit>
-		<Unit filename="/home/ceglarz/Dropbox/Projects/C++/dziek/Group.h">
+		<Unit filename="/home/ceglarz/Dropbox/Projects/C++/dziek/grades/Grade.h">
 			<Option target="dziek"/>
 		</Unit>
-		<Unit filename="/home/ceglarz/Dropbox/Projects/C++/dziek/imports.h">
+		<Unit filename="/home/ceglarz/Dropbox/Projects/C++/dziek/groups/Group.cpp">
+			<Option target="dziek"/>
+		</Unit>
+		<Unit filename="/home/ceglarz/Dropbox/Projects/C++/dziek/groups/Group.h">
 			<Option target="dziek"/>
 		</Unit>
 		<Unit filename="/home/ceglarz/Dropbox/Projects/C++/dziek/main.cpp">
@@ -130,6 +133,12 @@
 			<Option target="dziek"/>
 		</Unit>
 		<Unit filename="/home/ceglarz/Dropbox/Projects/C++/dziek/people/teachers/Teacher_manager.h">
+			<Option target="dziek"/>
+		</Unit>
+		<Unit filename="/home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject.cpp">
+			<Option target="dziek"/>
+		</Unit>
+		<Unit filename="/home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject.h">
 			<Option target="dziek"/>
 		</Unit>
 		<Unit filename="/home/ceglarz/Dropbox/Projects/C++/dziek/CMakeLists.txt">

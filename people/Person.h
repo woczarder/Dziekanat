@@ -24,4 +24,8 @@ public:
     void set_ID(int ID);
     void set_name(string name);
     void set_surname(string surname);
+
+    int get_ID();
+    string get_name();
+    string get_surname();
 };

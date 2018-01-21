@@ -225,28 +225,76 @@ CMakeFiles/dziek.dir/people/teachers/Teacher_manager.cpp.o.provides: CMakeFiles/
 CMakeFiles/dziek.dir/people/teachers/Teacher_manager.cpp.o.provides.build: CMakeFiles/dziek.dir/people/teachers/Teacher_manager.cpp.o
 
 
-CMakeFiles/dziek.dir/Group.cpp.o: CMakeFiles/dziek.dir/flags.make
-CMakeFiles/dziek.dir/Group.cpp.o: ../Group.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/dziek.dir/Group.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dziek.dir/Group.cpp.o -c /home/ceglarz/Dropbox/Projects/C++/dziek/Group.cpp
+CMakeFiles/dziek.dir/groups/Group.cpp.o: CMakeFiles/dziek.dir/flags.make
+CMakeFiles/dziek.dir/groups/Group.cpp.o: ../groups/Group.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/dziek.dir/groups/Group.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dziek.dir/groups/Group.cpp.o -c /home/ceglarz/Dropbox/Projects/C++/dziek/groups/Group.cpp
 
-CMakeFiles/dziek.dir/Group.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dziek.dir/Group.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ceglarz/Dropbox/Projects/C++/dziek/Group.cpp > CMakeFiles/dziek.dir/Group.cpp.i
+CMakeFiles/dziek.dir/groups/Group.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dziek.dir/groups/Group.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ceglarz/Dropbox/Projects/C++/dziek/groups/Group.cpp > CMakeFiles/dziek.dir/groups/Group.cpp.i
 
-CMakeFiles/dziek.dir/Group.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dziek.dir/Group.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ceglarz/Dropbox/Projects/C++/dziek/Group.cpp -o CMakeFiles/dziek.dir/Group.cpp.s
+CMakeFiles/dziek.dir/groups/Group.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dziek.dir/groups/Group.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ceglarz/Dropbox/Projects/C++/dziek/groups/Group.cpp -o CMakeFiles/dziek.dir/groups/Group.cpp.s
 
-CMakeFiles/dziek.dir/Group.cpp.o.requires:
+CMakeFiles/dziek.dir/groups/Group.cpp.o.requires:
 
-.PHONY : CMakeFiles/dziek.dir/Group.cpp.o.requires
+.PHONY : CMakeFiles/dziek.dir/groups/Group.cpp.o.requires
 
-CMakeFiles/dziek.dir/Group.cpp.o.provides: CMakeFiles/dziek.dir/Group.cpp.o.requires
-	$(MAKE) -f CMakeFiles/dziek.dir/build.make CMakeFiles/dziek.dir/Group.cpp.o.provides.build
-.PHONY : CMakeFiles/dziek.dir/Group.cpp.o.provides
+CMakeFiles/dziek.dir/groups/Group.cpp.o.provides: CMakeFiles/dziek.dir/groups/Group.cpp.o.requires
+	$(MAKE) -f CMakeFiles/dziek.dir/build.make CMakeFiles/dziek.dir/groups/Group.cpp.o.provides.build
+.PHONY : CMakeFiles/dziek.dir/groups/Group.cpp.o.provides
 
-CMakeFiles/dziek.dir/Group.cpp.o.provides.build: CMakeFiles/dziek.dir/Group.cpp.o
+CMakeFiles/dziek.dir/groups/Group.cpp.o.provides.build: CMakeFiles/dziek.dir/groups/Group.cpp.o
+
+
+CMakeFiles/dziek.dir/grades/Grade.cpp.o: CMakeFiles/dziek.dir/flags.make
+CMakeFiles/dziek.dir/grades/Grade.cpp.o: ../grades/Grade.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/dziek.dir/grades/Grade.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dziek.dir/grades/Grade.cpp.o -c /home/ceglarz/Dropbox/Projects/C++/dziek/grades/Grade.cpp
+
+CMakeFiles/dziek.dir/grades/Grade.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dziek.dir/grades/Grade.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ceglarz/Dropbox/Projects/C++/dziek/grades/Grade.cpp > CMakeFiles/dziek.dir/grades/Grade.cpp.i
+
+CMakeFiles/dziek.dir/grades/Grade.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dziek.dir/grades/Grade.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ceglarz/Dropbox/Projects/C++/dziek/grades/Grade.cpp -o CMakeFiles/dziek.dir/grades/Grade.cpp.s
+
+CMakeFiles/dziek.dir/grades/Grade.cpp.o.requires:
+
+.PHONY : CMakeFiles/dziek.dir/grades/Grade.cpp.o.requires
+
+CMakeFiles/dziek.dir/grades/Grade.cpp.o.provides: CMakeFiles/dziek.dir/grades/Grade.cpp.o.requires
+	$(MAKE) -f CMakeFiles/dziek.dir/build.make CMakeFiles/dziek.dir/grades/Grade.cpp.o.provides.build
+.PHONY : CMakeFiles/dziek.dir/grades/Grade.cpp.o.provides
+
+CMakeFiles/dziek.dir/grades/Grade.cpp.o.provides.build: CMakeFiles/dziek.dir/grades/Grade.cpp.o
+
+
+CMakeFiles/dziek.dir/subjects/Subject.cpp.o: CMakeFiles/dziek.dir/flags.make
+CMakeFiles/dziek.dir/subjects/Subject.cpp.o: ../subjects/Subject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/dziek.dir/subjects/Subject.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dziek.dir/subjects/Subject.cpp.o -c /home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject.cpp
+
+CMakeFiles/dziek.dir/subjects/Subject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dziek.dir/subjects/Subject.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject.cpp > CMakeFiles/dziek.dir/subjects/Subject.cpp.i
+
+CMakeFiles/dziek.dir/subjects/Subject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dziek.dir/subjects/Subject.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject.cpp -o CMakeFiles/dziek.dir/subjects/Subject.cpp.s
+
+CMakeFiles/dziek.dir/subjects/Subject.cpp.o.requires:
+
+.PHONY : CMakeFiles/dziek.dir/subjects/Subject.cpp.o.requires
+
+CMakeFiles/dziek.dir/subjects/Subject.cpp.o.provides: CMakeFiles/dziek.dir/subjects/Subject.cpp.o.requires
+	$(MAKE) -f CMakeFiles/dziek.dir/build.make CMakeFiles/dziek.dir/subjects/Subject.cpp.o.provides.build
+.PHONY : CMakeFiles/dziek.dir/subjects/Subject.cpp.o.provides
+
+CMakeFiles/dziek.dir/subjects/Subject.cpp.o.provides.build: CMakeFiles/dziek.dir/subjects/Subject.cpp.o
 
 
 # Object files for target dziek
@@ -258,7 +306,9 @@ dziek_OBJECTS = \
 "CMakeFiles/dziek.dir/people/Manager.cpp.o" \
 "CMakeFiles/dziek.dir/people/teachers/Teacher.cpp.o" \
 "CMakeFiles/dziek.dir/people/teachers/Teacher_manager.cpp.o" \
-"CMakeFiles/dziek.dir/Group.cpp.o"
+"CMakeFiles/dziek.dir/groups/Group.cpp.o" \
+"CMakeFiles/dziek.dir/grades/Grade.cpp.o" \
+"CMakeFiles/dziek.dir/subjects/Subject.cpp.o"
 
 # External object files for target dziek
 dziek_EXTERNAL_OBJECTS =
@@ -270,10 +320,12 @@ dziek: CMakeFiles/dziek.dir/people/students/Student_manager.cpp.o
 dziek: CMakeFiles/dziek.dir/people/Manager.cpp.o
 dziek: CMakeFiles/dziek.dir/people/teachers/Teacher.cpp.o
 dziek: CMakeFiles/dziek.dir/people/teachers/Teacher_manager.cpp.o
-dziek: CMakeFiles/dziek.dir/Group.cpp.o
+dziek: CMakeFiles/dziek.dir/groups/Group.cpp.o
+dziek: CMakeFiles/dziek.dir/grades/Grade.cpp.o
+dziek: CMakeFiles/dziek.dir/subjects/Subject.cpp.o
 dziek: CMakeFiles/dziek.dir/build.make
 dziek: CMakeFiles/dziek.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable dziek"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable dziek"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dziek.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -288,7 +340,9 @@ CMakeFiles/dziek.dir/requires: CMakeFiles/dziek.dir/people/students/Student_mana
 CMakeFiles/dziek.dir/requires: CMakeFiles/dziek.dir/people/Manager.cpp.o.requires
 CMakeFiles/dziek.dir/requires: CMakeFiles/dziek.dir/people/teachers/Teacher.cpp.o.requires
 CMakeFiles/dziek.dir/requires: CMakeFiles/dziek.dir/people/teachers/Teacher_manager.cpp.o.requires
-CMakeFiles/dziek.dir/requires: CMakeFiles/dziek.dir/Group.cpp.o.requires
+CMakeFiles/dziek.dir/requires: CMakeFiles/dziek.dir/groups/Group.cpp.o.requires
+CMakeFiles/dziek.dir/requires: CMakeFiles/dziek.dir/grades/Grade.cpp.o.requires
+CMakeFiles/dziek.dir/requires: CMakeFiles/dziek.dir/subjects/Subject.cpp.o.requires
 
 .PHONY : CMakeFiles/dziek.dir/requires
 

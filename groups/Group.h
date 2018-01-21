@@ -7,7 +7,7 @@
 
 #include <string>
 #include <vector>
-#include "people/students/Student.h"
+#include "../people/students/Student.h"
 
 using namespace std;
 
@@ -15,7 +15,7 @@ using namespace std;
 class Group {
 private:
     string name;
-    vector<Student> data_vector;
+    vector<Student> students_vec;
 
 public:
     void set_name(string);

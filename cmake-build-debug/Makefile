@@ -123,32 +123,59 @@ dziek/fast:
 	$(MAKE) -f CMakeFiles/dziek.dir/build.make CMakeFiles/dziek.dir/build
 .PHONY : dziek/fast
 
-Group.o: Group.cpp.o
+grades/Grade.o: grades/Grade.cpp.o
 
-.PHONY : Group.o
+.PHONY : grades/Grade.o
 
 # target to build an object file
-Group.cpp.o:
-	$(MAKE) -f CMakeFiles/dziek.dir/build.make CMakeFiles/dziek.dir/Group.cpp.o
-.PHONY : Group.cpp.o
+grades/Grade.cpp.o:
+	$(MAKE) -f CMakeFiles/dziek.dir/build.make CMakeFiles/dziek.dir/grades/Grade.cpp.o
+.PHONY : grades/Grade.cpp.o
 
-Group.i: Group.cpp.i
+grades/Grade.i: grades/Grade.cpp.i
 
-.PHONY : Group.i
+.PHONY : grades/Grade.i
 
 # target to preprocess a source file
-Group.cpp.i:
-	$(MAKE) -f CMakeFiles/dziek.dir/build.make CMakeFiles/dziek.dir/Group.cpp.i
-.PHONY : Group.cpp.i
+grades/Grade.cpp.i:
+	$(MAKE) -f CMakeFiles/dziek.dir/build.make CMakeFiles/dziek.dir/grades/Grade.cpp.i
+.PHONY : grades/Grade.cpp.i
 
-Group.s: Group.cpp.s
+grades/Grade.s: grades/Grade.cpp.s
 
-.PHONY : Group.s
+.PHONY : grades/Grade.s
 
 # target to generate assembly for a file
-Group.cpp.s:
-	$(MAKE) -f CMakeFiles/dziek.dir/build.make CMakeFiles/dziek.dir/Group.cpp.s
-.PHONY : Group.cpp.s
+grades/Grade.cpp.s:
+	$(MAKE) -f CMakeFiles/dziek.dir/build.make CMakeFiles/dziek.dir/grades/Grade.cpp.s
+.PHONY : grades/Grade.cpp.s
+
+groups/Group.o: groups/Group.cpp.o
+
+.PHONY : groups/Group.o
+
+# target to build an object file
+groups/Group.cpp.o:
+	$(MAKE) -f CMakeFiles/dziek.dir/build.make CMakeFiles/dziek.dir/groups/Group.cpp.o
+.PHONY : groups/Group.cpp.o
+
+groups/Group.i: groups/Group.cpp.i
+
+.PHONY : groups/Group.i
+
+# target to preprocess a source file
+groups/Group.cpp.i:
+	$(MAKE) -f CMakeFiles/dziek.dir/build.make CMakeFiles/dziek.dir/groups/Group.cpp.i
+.PHONY : groups/Group.cpp.i
+
+groups/Group.s: groups/Group.cpp.s
+
+.PHONY : groups/Group.s
+
+# target to generate assembly for a file
+groups/Group.cpp.s:
+	$(MAKE) -f CMakeFiles/dziek.dir/build.make CMakeFiles/dziek.dir/groups/Group.cpp.s
+.PHONY : groups/Group.cpp.s
 
 main.o: main.cpp.o
 
@@ -339,6 +366,33 @@ people/teachers/Teacher_manager.cpp.s:
 	$(MAKE) -f CMakeFiles/dziek.dir/build.make CMakeFiles/dziek.dir/people/teachers/Teacher_manager.cpp.s
 .PHONY : people/teachers/Teacher_manager.cpp.s
 
+subjects/Subject.o: subjects/Subject.cpp.o
+
+.PHONY : subjects/Subject.o
+
+# target to build an object file
+subjects/Subject.cpp.o:
+	$(MAKE) -f CMakeFiles/dziek.dir/build.make CMakeFiles/dziek.dir/subjects/Subject.cpp.o
+.PHONY : subjects/Subject.cpp.o
+
+subjects/Subject.i: subjects/Subject.cpp.i
+
+.PHONY : subjects/Subject.i
+
+# target to preprocess a source file
+subjects/Subject.cpp.i:
+	$(MAKE) -f CMakeFiles/dziek.dir/build.make CMakeFiles/dziek.dir/subjects/Subject.cpp.i
+.PHONY : subjects/Subject.cpp.i
+
+subjects/Subject.s: subjects/Subject.cpp.s
+
+.PHONY : subjects/Subject.s
+
+# target to generate assembly for a file
+subjects/Subject.cpp.s:
+	$(MAKE) -f CMakeFiles/dziek.dir/build.make CMakeFiles/dziek.dir/subjects/Subject.cpp.s
+.PHONY : subjects/Subject.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -348,9 +402,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... dziek"
-	@echo "... Group.o"
-	@echo "... Group.i"
-	@echo "... Group.s"
+	@echo "... grades/Grade.o"
+	@echo "... grades/Grade.i"
+	@echo "... grades/Grade.s"
+	@echo "... groups/Group.o"
+	@echo "... groups/Group.i"
+	@echo "... groups/Group.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -372,6 +429,9 @@ help:
 	@echo "... people/teachers/Teacher_manager.o"
 	@echo "... people/teachers/Teacher_manager.i"
 	@echo "... people/teachers/Teacher_manager.s"
+	@echo "... subjects/Subject.o"
+	@echo "... subjects/Subject.i"
+	@echo "... subjects/Subject.s"
 .PHONY : help
 
 

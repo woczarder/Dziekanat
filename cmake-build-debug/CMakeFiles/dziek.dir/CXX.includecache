@@ -6,16 +6,24 @@
 
 #IncludeRegexTransform: 
 
-/home/ceglarz/Dropbox/Projects/C++/dziek/Group.cpp
-Group.h
-/home/ceglarz/Dropbox/Projects/C++/dziek/Group.h
+/home/ceglarz/Dropbox/Projects/C++/dziek/grades/Grade.cpp
+Grade.h
+/home/ceglarz/Dropbox/Projects/C++/dziek/grades/Grade.h
 
-/home/ceglarz/Dropbox/Projects/C++/dziek/Group.h
+/home/ceglarz/Dropbox/Projects/C++/dziek/grades/Grade.h
+../subjects/Subject.h
+/home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject.h
+
+/home/ceglarz/Dropbox/Projects/C++/dziek/groups/Group.cpp
+Group.h
+/home/ceglarz/Dropbox/Projects/C++/dziek/groups/Group.h
+
+/home/ceglarz/Dropbox/Projects/C++/dziek/groups/Group.h
 string
 -
 vector
 -
-people/students/Student.h
+../people/students/Student.h
 /home/ceglarz/Dropbox/Projects/C++/dziek/people/students/Student.h
 
 /home/ceglarz/Dropbox/Projects/C++/dziek/main.cpp
@@ -89,4 +97,10 @@ Teacher_manager.h
 /home/ceglarz/Dropbox/Projects/C++/dziek/people/teachers/Teacher_manager.h
 
 /home/ceglarz/Dropbox/Projects/C++/dziek/people/teachers/Teacher_manager.h
+
+/home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject.cpp
+Subject.h
+/home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject.h
+
+/home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject.h
 
