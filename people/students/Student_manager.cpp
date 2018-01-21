@@ -43,6 +43,18 @@ void Student_manager::load(string filename)
     print_me();
 }
 
+//void Student_manager::save(string filename) {
+//    fstream my_file;
+//    my_file.open(filename, ios::out);
+//
+//    if (!my_file.is_open())
+//        cout << "Can't open manager file" << endl;
+//
+//    for (int i = 0; i < data_vector.size(); i++) {
+//        my_file << data_vector[i].getID() << "|\n";
+//    }
+//}
+
 void Student_manager::add(int ID, string name, string surname)
 {
     data_vector.push_back(Student(ID, name, surname));

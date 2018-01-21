@@ -21,6 +21,8 @@ int main() {
         cout << "Make a decision:" << endl;
         cout << "[1] Print students" << endl;
         cout << "[2] Print teachers" << endl;
+        cout << "[3] Save students" << endl;
+        cout << "[4] Save teachers" << endl;
         cin >> choice;
 
         menu(choice);
@@ -34,4 +36,8 @@ void menu(string choice) {
         student_manager.print_me();
     if (choice == "2")
         teacher_manager.print_me();
+    if (choice == "3")
+        student_manager.save("students.txt");
+    if (choice == "4")
+        teacher_manager.save("teachers.txt");
 }

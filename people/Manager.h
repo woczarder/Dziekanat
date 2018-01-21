@@ -22,7 +22,7 @@ public:
         size_t pos1 = 0, pos2;
 
         if (!my_file.is_open())
-            cout << "Can't read student_manager file" << endl;
+            cout << "Can't open manager file" << endl;
 
         string line;
 
@@ -46,6 +46,18 @@ public:
         }
 
         my_file.close();
+    }
+
+    void save(string filename) {
+        fstream my_file;
+        my_file.open(filename, ios::out);
+
+        if (!my_file.is_open())
+            cout << "Can't open manager file" << endl;
+
+        for (int i = 0; i < data_vector.size(); i++) {
+            my_file << data_vector[i].get_ID() << "|" << data_vector[i].get_name() << "|" << data_vector[i].get_surname() << "\n";
+        }
     }
 
     void add(int ID, string name, string surname) {

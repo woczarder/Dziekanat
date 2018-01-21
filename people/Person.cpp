@@ -39,3 +39,15 @@ void Person::set_surname(string surname)
 {
     this->surname = surname;
 }
+
+int Person::get_ID() {
+    return this->ID;
+}
+
+string Person::get_name() {
+    return this->name;
+}
+
+string Person::get_surname() {
+    return this->surname;
+}
