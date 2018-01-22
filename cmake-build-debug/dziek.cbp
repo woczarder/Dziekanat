@@ -96,6 +96,12 @@
 		<Unit filename="/home/ceglarz/Dropbox/Projects/C++/dziek/groups/Group.h">
 			<Option target="dziek"/>
 		</Unit>
+		<Unit filename="/home/ceglarz/Dropbox/Projects/C++/dziek/groups/Group_manager.cpp">
+			<Option target="dziek"/>
+		</Unit>
+		<Unit filename="/home/ceglarz/Dropbox/Projects/C++/dziek/groups/Group_manager.h">
+			<Option target="dziek"/>
+		</Unit>
 		<Unit filename="/home/ceglarz/Dropbox/Projects/C++/dziek/main.cpp">
 			<Option target="dziek"/>
 		</Unit>
@@ -139,6 +145,12 @@
 			<Option target="dziek"/>
 		</Unit>
 		<Unit filename="/home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject.h">
+			<Option target="dziek"/>
+		</Unit>
+		<Unit filename="/home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject_manager.cpp">
+			<Option target="dziek"/>
+		</Unit>
+		<Unit filename="/home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject_manager.h">
 			<Option target="dziek"/>
 		</Unit>
 		<Unit filename="/home/ceglarz/Dropbox/Projects/C++/dziek/CMakeLists.txt">

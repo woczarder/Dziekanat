@@ -7,24 +7,30 @@
 
 #include <string>
 #include <vector>
-#include "../people/students/Student.h"
+#include "../subjects/Subject.h"
 
 using namespace std;
 
 
 class Group {
 private:
+    int ID;
     string name;
-    vector<Student> students_vec;
+    vector<Subject> subject_vec;
 
 public:
     void set_name(string);
-    string get_name();
 
     void print_me();
 
     Group();
-    Group(string name, vector<Student> class_vec);
+    Group(int ID, string name, vector<Subject> subject_vec);
+    Group(int ID, string name);
+
+    void add_subject(Subject subject);
+
+    int get_ID();
+    string get_name();
 };
 
 

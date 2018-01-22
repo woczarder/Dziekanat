@@ -23,8 +23,20 @@ string
 -
 vector
 -
-../people/students/Student.h
-/home/ceglarz/Dropbox/Projects/C++/dziek/people/students/Student.h
+../subjects/Subject.h
+/home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject.h
+
+/home/ceglarz/Dropbox/Projects/C++/dziek/groups/Group_manager.cpp
+fstream
+-
+Group_manager.h
+/home/ceglarz/Dropbox/Projects/C++/dziek/groups/Group_manager.h
+
+/home/ceglarz/Dropbox/Projects/C++/dziek/groups/Group_manager.h
+Group.h
+/home/ceglarz/Dropbox/Projects/C++/dziek/groups/Group.h
+../subjects/Subject_manager.h
+/home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject_manager.h
 
 /home/ceglarz/Dropbox/Projects/C++/dziek/main.cpp
 iostream
@@ -35,6 +47,10 @@ people/students/Student.h
 /home/ceglarz/Dropbox/Projects/C++/dziek/people/students/Student.h
 people/teachers/Teacher.h
 /home/ceglarz/Dropbox/Projects/C++/dziek/people/teachers/Teacher.h
+subjects/Subject_manager.h
+/home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject_manager.h
+groups/Group_manager.h
+/home/ceglarz/Dropbox/Projects/C++/dziek/groups/Group_manager.h
 
 /home/ceglarz/Dropbox/Projects/C++/dziek/people/Manager.cpp
 Manager.h
@@ -102,5 +118,21 @@ Teacher_manager.h
 Subject.h
 /home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject.h
 
+/home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject.h
+iostream
+-
+string
+-
+
+/home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject_manager.cpp
+fstream
+-
+Subject_manager.h
+/home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject_manager.h
+
+/home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject_manager.h
+vector
+-
+Subject.h
 /home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject.h
 

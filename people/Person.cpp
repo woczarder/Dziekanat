@@ -11,12 +11,14 @@ Person::Person(int ID, string name, string surname)
     this->surname = surname;
 }
 
-void Person::print_person()
-{
-    cout << "ID: " << this->ID << endl;
-    cout << "Name: " << this->name << endl;
-    cout << "Surname: " << this->surname << endl;
+void Person::print_person() {
+    cout << "ID: " << this->ID << "\tName: " << this->name << "\t\t\tSurname: " << this->surname << endl;
 }
+//{
+//    cout << "ID: " << this->ID << endl;
+//    cout << "Name: " << this->name << endl;
+//    cout << "Surname: " << this->surname << endl;
+//}
 
 Person::Person() {
 

@@ -177,6 +177,33 @@ groups/Group.cpp.s:
 	$(MAKE) -f CMakeFiles/dziek.dir/build.make CMakeFiles/dziek.dir/groups/Group.cpp.s
 .PHONY : groups/Group.cpp.s
 
+groups/Group_manager.o: groups/Group_manager.cpp.o
+
+.PHONY : groups/Group_manager.o
+
+# target to build an object file
+groups/Group_manager.cpp.o:
+	$(MAKE) -f CMakeFiles/dziek.dir/build.make CMakeFiles/dziek.dir/groups/Group_manager.cpp.o
+.PHONY : groups/Group_manager.cpp.o
+
+groups/Group_manager.i: groups/Group_manager.cpp.i
+
+.PHONY : groups/Group_manager.i
+
+# target to preprocess a source file
+groups/Group_manager.cpp.i:
+	$(MAKE) -f CMakeFiles/dziek.dir/build.make CMakeFiles/dziek.dir/groups/Group_manager.cpp.i
+.PHONY : groups/Group_manager.cpp.i
+
+groups/Group_manager.s: groups/Group_manager.cpp.s
+
+.PHONY : groups/Group_manager.s
+
+# target to generate assembly for a file
+groups/Group_manager.cpp.s:
+	$(MAKE) -f CMakeFiles/dziek.dir/build.make CMakeFiles/dziek.dir/groups/Group_manager.cpp.s
+.PHONY : groups/Group_manager.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -393,6 +420,33 @@ subjects/Subject.cpp.s:
 	$(MAKE) -f CMakeFiles/dziek.dir/build.make CMakeFiles/dziek.dir/subjects/Subject.cpp.s
 .PHONY : subjects/Subject.cpp.s
 
+subjects/Subject_manager.o: subjects/Subject_manager.cpp.o
+
+.PHONY : subjects/Subject_manager.o
+
+# target to build an object file
+subjects/Subject_manager.cpp.o:
+	$(MAKE) -f CMakeFiles/dziek.dir/build.make CMakeFiles/dziek.dir/subjects/Subject_manager.cpp.o
+.PHONY : subjects/Subject_manager.cpp.o
+
+subjects/Subject_manager.i: subjects/Subject_manager.cpp.i
+
+.PHONY : subjects/Subject_manager.i
+
+# target to preprocess a source file
+subjects/Subject_manager.cpp.i:
+	$(MAKE) -f CMakeFiles/dziek.dir/build.make CMakeFiles/dziek.dir/subjects/Subject_manager.cpp.i
+.PHONY : subjects/Subject_manager.cpp.i
+
+subjects/Subject_manager.s: subjects/Subject_manager.cpp.s
+
+.PHONY : subjects/Subject_manager.s
+
+# target to generate assembly for a file
+subjects/Subject_manager.cpp.s:
+	$(MAKE) -f CMakeFiles/dziek.dir/build.make CMakeFiles/dziek.dir/subjects/Subject_manager.cpp.s
+.PHONY : subjects/Subject_manager.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -408,6 +462,9 @@ help:
 	@echo "... groups/Group.o"
 	@echo "... groups/Group.i"
 	@echo "... groups/Group.s"
+	@echo "... groups/Group_manager.o"
+	@echo "... groups/Group_manager.i"
+	@echo "... groups/Group_manager.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -432,6 +489,9 @@ help:
 	@echo "... subjects/Subject.o"
 	@echo "... subjects/Subject.i"
 	@echo "... subjects/Subject.s"
+	@echo "... subjects/Subject_manager.o"
+	@echo "... subjects/Subject_manager.i"
+	@echo "... subjects/Subject_manager.s"
 .PHONY : help
 
 

@@ -8,14 +8,23 @@ CMakeFiles/dziek.dir/grades/Grade.cpp.o
 CMakeFiles/dziek.dir/groups/Group.cpp.o
  /home/ceglarz/Dropbox/Projects/C++/dziek/groups/Group.cpp
  /home/ceglarz/Dropbox/Projects/C++/dziek/groups/Group.h
- /home/ceglarz/Dropbox/Projects/C++/dziek/people/Person.h
- /home/ceglarz/Dropbox/Projects/C++/dziek/people/students/Student.h
+ /home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject.h
+CMakeFiles/dziek.dir/groups/Group_manager.cpp.o
+ /home/ceglarz/Dropbox/Projects/C++/dziek/groups/Group.h
+ /home/ceglarz/Dropbox/Projects/C++/dziek/groups/Group_manager.cpp
+ /home/ceglarz/Dropbox/Projects/C++/dziek/groups/Group_manager.h
+ /home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject.h
+ /home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject_manager.h
 CMakeFiles/dziek.dir/main.cpp.o
+ /home/ceglarz/Dropbox/Projects/C++/dziek/groups/Group.h
+ /home/ceglarz/Dropbox/Projects/C++/dziek/groups/Group_manager.h
  /home/ceglarz/Dropbox/Projects/C++/dziek/main.cpp
  /home/ceglarz/Dropbox/Projects/C++/dziek/people/Manager.h
  /home/ceglarz/Dropbox/Projects/C++/dziek/people/Person.h
  /home/ceglarz/Dropbox/Projects/C++/dziek/people/students/Student.h
  /home/ceglarz/Dropbox/Projects/C++/dziek/people/teachers/Teacher.h
+ /home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject.h
+ /home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject_manager.h
 CMakeFiles/dziek.dir/people/Manager.cpp.o
  /home/ceglarz/Dropbox/Projects/C++/dziek/people/Manager.cpp
  /home/ceglarz/Dropbox/Projects/C++/dziek/people/Manager.h
@@ -41,3 +50,7 @@ CMakeFiles/dziek.dir/people/teachers/Teacher_manager.cpp.o
 CMakeFiles/dziek.dir/subjects/Subject.cpp.o
  /home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject.cpp
  /home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject.h
+CMakeFiles/dziek.dir/subjects/Subject_manager.cpp.o
+ /home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject.h
+ /home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject_manager.cpp
+ /home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject_manager.h

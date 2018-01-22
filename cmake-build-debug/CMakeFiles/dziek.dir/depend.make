@@ -7,14 +7,23 @@ CMakeFiles/dziek.dir/grades/Grade.cpp.o: ../subjects/Subject.h
 
 CMakeFiles/dziek.dir/groups/Group.cpp.o: ../groups/Group.cpp
 CMakeFiles/dziek.dir/groups/Group.cpp.o: ../groups/Group.h
-CMakeFiles/dziek.dir/groups/Group.cpp.o: ../people/Person.h
-CMakeFiles/dziek.dir/groups/Group.cpp.o: ../people/students/Student.h
+CMakeFiles/dziek.dir/groups/Group.cpp.o: ../subjects/Subject.h
 
+CMakeFiles/dziek.dir/groups/Group_manager.cpp.o: ../groups/Group.h
+CMakeFiles/dziek.dir/groups/Group_manager.cpp.o: ../groups/Group_manager.cpp
+CMakeFiles/dziek.dir/groups/Group_manager.cpp.o: ../groups/Group_manager.h
+CMakeFiles/dziek.dir/groups/Group_manager.cpp.o: ../subjects/Subject.h
+CMakeFiles/dziek.dir/groups/Group_manager.cpp.o: ../subjects/Subject_manager.h
+
+CMakeFiles/dziek.dir/main.cpp.o: ../groups/Group.h
+CMakeFiles/dziek.dir/main.cpp.o: ../groups/Group_manager.h
 CMakeFiles/dziek.dir/main.cpp.o: ../main.cpp
 CMakeFiles/dziek.dir/main.cpp.o: ../people/Manager.h
 CMakeFiles/dziek.dir/main.cpp.o: ../people/Person.h
 CMakeFiles/dziek.dir/main.cpp.o: ../people/students/Student.h
 CMakeFiles/dziek.dir/main.cpp.o: ../people/teachers/Teacher.h
+CMakeFiles/dziek.dir/main.cpp.o: ../subjects/Subject.h
+CMakeFiles/dziek.dir/main.cpp.o: ../subjects/Subject_manager.h
 
 CMakeFiles/dziek.dir/people/Manager.cpp.o: ../people/Manager.cpp
 CMakeFiles/dziek.dir/people/Manager.cpp.o: ../people/Manager.h
@@ -40,4 +49,8 @@ CMakeFiles/dziek.dir/people/teachers/Teacher_manager.cpp.o: ../people/teachers/T
 
 CMakeFiles/dziek.dir/subjects/Subject.cpp.o: ../subjects/Subject.cpp
 CMakeFiles/dziek.dir/subjects/Subject.cpp.o: ../subjects/Subject.h
+
+CMakeFiles/dziek.dir/subjects/Subject_manager.cpp.o: ../subjects/Subject.h
+CMakeFiles/dziek.dir/subjects/Subject_manager.cpp.o: ../subjects/Subject_manager.cpp
+CMakeFiles/dziek.dir/subjects/Subject_manager.cpp.o: ../subjects/Subject_manager.h
 

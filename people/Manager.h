@@ -35,12 +35,12 @@ public:
                 pos2 = line.find("|", pos1);
 
                 subs[i] = line.substr(pos1, (pos2-pos1));
-                cout << subs[i] << endl;
+                //cout << subs[i] << endl;
                 //cout << "pos1:" << pos1 << ", pos2:" << pos2 << endl;
 
                 pos1 = pos2+1;
             }
-            cout << endl;
+            //cout << endl;
 
             data_vector.push_back(MainType(stoi(subs[0]), subs[1], subs[2]));
         }
@@ -74,9 +74,42 @@ public:
 
         for (int i = 0; i < data_vector.size(); i++) {
             data_vector[i].print_person();
-            cout << endl;
+//            cout << endl;
         }
         cout << endl << endl;
+    }
+
+    void edit() {
+        cout << "They are printed below. Which one do you want to edit?" << endl;
+        for (int i = 0; i < data_vector.size(); i++) {
+            cout << "[" << i << "]: ";
+            data_vector[i].print_person();
+        }
+
+        int choice;
+        string login, new_name, new_surname;
+        cin >> choice;
+
+        cout << "Type new name: " << endl;
+        cin >> new_name;
+        cout << "Type new surname: " << endl;
+        cin >> new_surname;
+
+        data_vector[choice].set_name(new_name);
+        data_vector[choice].set_surname(new_surname);
+    }
+
+    void del() {
+        // print
+        for (int i = 0; i < data_vector.size(); i++) {
+            cout << "[" << i << "]: ";
+            data_vector[i].print_person();
+        }
+
+        cout << "They are printed. Which one do you want to remove?" << endl;
+        int choice;
+        cin >> choice;
+        data_vector.erase(data_vector.begin() + choice);
     }
 
 };

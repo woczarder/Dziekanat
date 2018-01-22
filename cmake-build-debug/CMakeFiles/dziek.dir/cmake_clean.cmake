@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/dziek.dir/groups/Group.cpp.o"
   "CMakeFiles/dziek.dir/grades/Grade.cpp.o"
   "CMakeFiles/dziek.dir/subjects/Subject.cpp.o"
+  "CMakeFiles/dziek.dir/groups/Group_manager.cpp.o"
+  "CMakeFiles/dziek.dir/subjects/Subject_manager.cpp.o"
   "dziek.pdb"
   "dziek"
 )
