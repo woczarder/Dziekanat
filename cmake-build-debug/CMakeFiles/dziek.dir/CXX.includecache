@@ -6,57 +6,69 @@
 
 #IncludeRegexTransform: 
 
-/home/ceglarz/Dropbox/Projects/C++/dziek/grades/Grade.cpp
+C:/Users/wojta/Dropbox/Projects/C++/dziek/grades/Grade.cpp
 Grade.h
-/home/ceglarz/Dropbox/Projects/C++/dziek/grades/Grade.h
+C:/Users/wojta/Dropbox/Projects/C++/dziek/grades/Grade.h
 
-/home/ceglarz/Dropbox/Projects/C++/dziek/grades/Grade.h
+C:/Users/wojta/Dropbox/Projects/C++/dziek/grades/Grade.h
 ../subjects/Subject.h
-/home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject.h
+C:/Users/wojta/Dropbox/Projects/C++/dziek/subjects/Subject.h
 
-/home/ceglarz/Dropbox/Projects/C++/dziek/groups/Group.cpp
+C:/Users/wojta/Dropbox/Projects/C++/dziek/grades/Grade_manager.cpp
+Grade_manager.h
+C:/Users/wojta/Dropbox/Projects/C++/dziek/grades/Grade_manager.h
+
+C:/Users/wojta/Dropbox/Projects/C++/dziek/grades/Grade_manager.h
+vector
+-
+Grade.h
+C:/Users/wojta/Dropbox/Projects/C++/dziek/grades/Grade.h
+
+C:/Users/wojta/Dropbox/Projects/C++/dziek/groups/Group.cpp
 Group.h
-/home/ceglarz/Dropbox/Projects/C++/dziek/groups/Group.h
+C:/Users/wojta/Dropbox/Projects/C++/dziek/groups/Group.h
 
-/home/ceglarz/Dropbox/Projects/C++/dziek/groups/Group.h
+C:/Users/wojta/Dropbox/Projects/C++/dziek/groups/Group.h
 string
 -
 vector
 -
 ../subjects/Subject.h
-/home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject.h
+C:/Users/wojta/Dropbox/Projects/C++/dziek/subjects/Subject.h
 
-/home/ceglarz/Dropbox/Projects/C++/dziek/groups/Group_manager.cpp
+C:/Users/wojta/Dropbox/Projects/C++/dziek/groups/Group_manager.cpp
 fstream
 -
 Group_manager.h
-/home/ceglarz/Dropbox/Projects/C++/dziek/groups/Group_manager.h
+C:/Users/wojta/Dropbox/Projects/C++/dziek/groups/Group_manager.h
 
-/home/ceglarz/Dropbox/Projects/C++/dziek/groups/Group_manager.h
+C:/Users/wojta/Dropbox/Projects/C++/dziek/groups/Group_manager.h
 Group.h
-/home/ceglarz/Dropbox/Projects/C++/dziek/groups/Group.h
+C:/Users/wojta/Dropbox/Projects/C++/dziek/groups/Group.h
 ../subjects/Subject_manager.h
-/home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject_manager.h
+C:/Users/wojta/Dropbox/Projects/C++/dziek/subjects/Subject_manager.h
 
-/home/ceglarz/Dropbox/Projects/C++/dziek/main.cpp
+C:/Users/wojta/Dropbox/Projects/C++/dziek/main.cpp
 iostream
 -
 people/Manager.h
-/home/ceglarz/Dropbox/Projects/C++/dziek/people/Manager.h
+C:/Users/wojta/Dropbox/Projects/C++/dziek/people/Manager.h
 people/students/Student.h
-/home/ceglarz/Dropbox/Projects/C++/dziek/people/students/Student.h
+C:/Users/wojta/Dropbox/Projects/C++/dziek/people/students/Student.h
 people/teachers/Teacher.h
-/home/ceglarz/Dropbox/Projects/C++/dziek/people/teachers/Teacher.h
+C:/Users/wojta/Dropbox/Projects/C++/dziek/people/teachers/Teacher.h
 subjects/Subject_manager.h
-/home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject_manager.h
+C:/Users/wojta/Dropbox/Projects/C++/dziek/subjects/Subject_manager.h
 groups/Group_manager.h
-/home/ceglarz/Dropbox/Projects/C++/dziek/groups/Group_manager.h
+C:/Users/wojta/Dropbox/Projects/C++/dziek/groups/Group_manager.h
+grades/Grade_manager.h
+C:/Users/wojta/Dropbox/Projects/C++/dziek/grades/Grade_manager.h
 
-/home/ceglarz/Dropbox/Projects/C++/dziek/people/Manager.cpp
+C:/Users/wojta/Dropbox/Projects/C++/dziek/people/Manager.cpp
 Manager.h
-/home/ceglarz/Dropbox/Projects/C++/dziek/people/Manager.h
+C:/Users/wojta/Dropbox/Projects/C++/dziek/people/Manager.h
 
-/home/ceglarz/Dropbox/Projects/C++/dziek/people/Manager.h
+C:/Users/wojta/Dropbox/Projects/C++/dziek/people/Manager.h
 vector
 -
 iostream
@@ -66,25 +78,27 @@ fstream
 string
 -
 
-/home/ceglarz/Dropbox/Projects/C++/dziek/people/Person.cpp
+C:/Users/wojta/Dropbox/Projects/C++/dziek/people/Person.cpp
 Person.h
-/home/ceglarz/Dropbox/Projects/C++/dziek/people/Person.h
+C:/Users/wojta/Dropbox/Projects/C++/dziek/people/Person.h
 
-/home/ceglarz/Dropbox/Projects/C++/dziek/people/Person.h
+C:/Users/wojta/Dropbox/Projects/C++/dziek/people/Person.h
 iostream
 -
 string
 -
 
-/home/ceglarz/Dropbox/Projects/C++/dziek/people/students/Student.cpp
+C:/Users/wojta/Dropbox/Projects/C++/dziek/people/students/Student.cpp
 Student.h
-/home/ceglarz/Dropbox/Projects/C++/dziek/people/students/Student.h
+C:/Users/wojta/Dropbox/Projects/C++/dziek/people/students/Student.h
 
-/home/ceglarz/Dropbox/Projects/C++/dziek/people/students/Student.h
+C:/Users/wojta/Dropbox/Projects/C++/dziek/people/students/Student.h
 ../Person.h
-/home/ceglarz/Dropbox/Projects/C++/dziek/people/Person.h
+C:/Users/wojta/Dropbox/Projects/C++/dziek/people/Person.h
+../../groups/Group.h
+C:/Users/wojta/Dropbox/Projects/C++/dziek/groups/Group.h
 
-/home/ceglarz/Dropbox/Projects/C++/dziek/people/students/Student_manager.cpp
+C:/Users/wojta/Dropbox/Projects/C++/dziek/people/students/Student_manager.cpp
 iostream
 -
 fstream
@@ -92,47 +106,51 @@ fstream
 string
 -
 Student_manager.h
-/home/ceglarz/Dropbox/Projects/C++/dziek/people/students/Student_manager.h
+C:/Users/wojta/Dropbox/Projects/C++/dziek/people/students/Student_manager.h
 
-/home/ceglarz/Dropbox/Projects/C++/dziek/people/students/Student_manager.h
+C:/Users/wojta/Dropbox/Projects/C++/dziek/people/students/Student_manager.h
 vector
 -
 Student.h
-/home/ceglarz/Dropbox/Projects/C++/dziek/people/students/Student.h
+C:/Users/wojta/Dropbox/Projects/C++/dziek/people/students/Student.h
 
-/home/ceglarz/Dropbox/Projects/C++/dziek/people/teachers/Teacher.cpp
+C:/Users/wojta/Dropbox/Projects/C++/dziek/people/teachers/Teacher.cpp
 Teacher.h
-/home/ceglarz/Dropbox/Projects/C++/dziek/people/teachers/Teacher.h
+C:/Users/wojta/Dropbox/Projects/C++/dziek/people/teachers/Teacher.h
 
-/home/ceglarz/Dropbox/Projects/C++/dziek/people/teachers/Teacher.h
+C:/Users/wojta/Dropbox/Projects/C++/dziek/people/teachers/Teacher.h
+vector
+-
 ../Person.h
-/home/ceglarz/Dropbox/Projects/C++/dziek/people/Person.h
+C:/Users/wojta/Dropbox/Projects/C++/dziek/people/Person.h
+../../subjects/Subject.h
+C:/Users/wojta/Dropbox/Projects/C++/dziek/subjects/Subject.h
 
-/home/ceglarz/Dropbox/Projects/C++/dziek/people/teachers/Teacher_manager.cpp
+C:/Users/wojta/Dropbox/Projects/C++/dziek/people/teachers/Teacher_manager.cpp
 Teacher_manager.h
-/home/ceglarz/Dropbox/Projects/C++/dziek/people/teachers/Teacher_manager.h
+C:/Users/wojta/Dropbox/Projects/C++/dziek/people/teachers/Teacher_manager.h
 
-/home/ceglarz/Dropbox/Projects/C++/dziek/people/teachers/Teacher_manager.h
+C:/Users/wojta/Dropbox/Projects/C++/dziek/people/teachers/Teacher_manager.h
 
-/home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject.cpp
+C:/Users/wojta/Dropbox/Projects/C++/dziek/subjects/Subject.cpp
 Subject.h
-/home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject.h
+C:/Users/wojta/Dropbox/Projects/C++/dziek/subjects/Subject.h
 
-/home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject.h
+C:/Users/wojta/Dropbox/Projects/C++/dziek/subjects/Subject.h
 iostream
 -
 string
 -
 
-/home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject_manager.cpp
+C:/Users/wojta/Dropbox/Projects/C++/dziek/subjects/Subject_manager.cpp
 fstream
 -
 Subject_manager.h
-/home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject_manager.h
+C:/Users/wojta/Dropbox/Projects/C++/dziek/subjects/Subject_manager.h
 
-/home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject_manager.h
+C:/Users/wojta/Dropbox/Projects/C++/dziek/subjects/Subject_manager.h
 vector
 -
 Subject.h
-/home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject.h
+C:/Users/wojta/Dropbox/Projects/C++/dziek/subjects/Subject.h
 

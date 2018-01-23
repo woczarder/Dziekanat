@@ -4,18 +4,19 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ceglarz/Dropbox/Projects/C++/dziek/grades/Grade.cpp" "/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/CMakeFiles/dziek.dir/grades/Grade.cpp.o"
-  "/home/ceglarz/Dropbox/Projects/C++/dziek/groups/Group.cpp" "/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/CMakeFiles/dziek.dir/groups/Group.cpp.o"
-  "/home/ceglarz/Dropbox/Projects/C++/dziek/groups/Group_manager.cpp" "/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/CMakeFiles/dziek.dir/groups/Group_manager.cpp.o"
-  "/home/ceglarz/Dropbox/Projects/C++/dziek/main.cpp" "/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/CMakeFiles/dziek.dir/main.cpp.o"
-  "/home/ceglarz/Dropbox/Projects/C++/dziek/people/Manager.cpp" "/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/CMakeFiles/dziek.dir/people/Manager.cpp.o"
-  "/home/ceglarz/Dropbox/Projects/C++/dziek/people/Person.cpp" "/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/CMakeFiles/dziek.dir/people/Person.cpp.o"
-  "/home/ceglarz/Dropbox/Projects/C++/dziek/people/students/Student.cpp" "/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/CMakeFiles/dziek.dir/people/students/Student.cpp.o"
-  "/home/ceglarz/Dropbox/Projects/C++/dziek/people/students/Student_manager.cpp" "/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/CMakeFiles/dziek.dir/people/students/Student_manager.cpp.o"
-  "/home/ceglarz/Dropbox/Projects/C++/dziek/people/teachers/Teacher.cpp" "/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/CMakeFiles/dziek.dir/people/teachers/Teacher.cpp.o"
-  "/home/ceglarz/Dropbox/Projects/C++/dziek/people/teachers/Teacher_manager.cpp" "/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/CMakeFiles/dziek.dir/people/teachers/Teacher_manager.cpp.o"
-  "/home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject.cpp" "/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/CMakeFiles/dziek.dir/subjects/Subject.cpp.o"
-  "/home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject_manager.cpp" "/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/CMakeFiles/dziek.dir/subjects/Subject_manager.cpp.o"
+  "C:/Users/wojta/Dropbox/Projects/C++/dziek/grades/Grade.cpp" "C:/Users/wojta/Dropbox/Projects/C++/dziek/cmake-build-debug/CMakeFiles/dziek.dir/grades/Grade.cpp.obj"
+  "C:/Users/wojta/Dropbox/Projects/C++/dziek/grades/Grade_manager.cpp" "C:/Users/wojta/Dropbox/Projects/C++/dziek/cmake-build-debug/CMakeFiles/dziek.dir/grades/Grade_manager.cpp.obj"
+  "C:/Users/wojta/Dropbox/Projects/C++/dziek/groups/Group.cpp" "C:/Users/wojta/Dropbox/Projects/C++/dziek/cmake-build-debug/CMakeFiles/dziek.dir/groups/Group.cpp.obj"
+  "C:/Users/wojta/Dropbox/Projects/C++/dziek/groups/Group_manager.cpp" "C:/Users/wojta/Dropbox/Projects/C++/dziek/cmake-build-debug/CMakeFiles/dziek.dir/groups/Group_manager.cpp.obj"
+  "C:/Users/wojta/Dropbox/Projects/C++/dziek/main.cpp" "C:/Users/wojta/Dropbox/Projects/C++/dziek/cmake-build-debug/CMakeFiles/dziek.dir/main.cpp.obj"
+  "C:/Users/wojta/Dropbox/Projects/C++/dziek/people/Manager.cpp" "C:/Users/wojta/Dropbox/Projects/C++/dziek/cmake-build-debug/CMakeFiles/dziek.dir/people/Manager.cpp.obj"
+  "C:/Users/wojta/Dropbox/Projects/C++/dziek/people/Person.cpp" "C:/Users/wojta/Dropbox/Projects/C++/dziek/cmake-build-debug/CMakeFiles/dziek.dir/people/Person.cpp.obj"
+  "C:/Users/wojta/Dropbox/Projects/C++/dziek/people/students/Student.cpp" "C:/Users/wojta/Dropbox/Projects/C++/dziek/cmake-build-debug/CMakeFiles/dziek.dir/people/students/Student.cpp.obj"
+  "C:/Users/wojta/Dropbox/Projects/C++/dziek/people/students/Student_manager.cpp" "C:/Users/wojta/Dropbox/Projects/C++/dziek/cmake-build-debug/CMakeFiles/dziek.dir/people/students/Student_manager.cpp.obj"
+  "C:/Users/wojta/Dropbox/Projects/C++/dziek/people/teachers/Teacher.cpp" "C:/Users/wojta/Dropbox/Projects/C++/dziek/cmake-build-debug/CMakeFiles/dziek.dir/people/teachers/Teacher.cpp.obj"
+  "C:/Users/wojta/Dropbox/Projects/C++/dziek/people/teachers/Teacher_manager.cpp" "C:/Users/wojta/Dropbox/Projects/C++/dziek/cmake-build-debug/CMakeFiles/dziek.dir/people/teachers/Teacher_manager.cpp.obj"
+  "C:/Users/wojta/Dropbox/Projects/C++/dziek/subjects/Subject.cpp" "C:/Users/wojta/Dropbox/Projects/C++/dziek/cmake-build-debug/CMakeFiles/dziek.dir/subjects/Subject.cpp.obj"
+  "C:/Users/wojta/Dropbox/Projects/C++/dziek/subjects/Subject_manager.cpp" "C:/Users/wojta/Dropbox/Projects/C++/dziek/cmake-build-debug/CMakeFiles/dziek.dir/subjects/Subject_manager.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

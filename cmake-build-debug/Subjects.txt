@@ -1,0 +1,4 @@
+3001|Programowanie Obiektowe|5
+3002|Algebra Liniowa|8
+3003|Matematyka Dyskretna|3
+3004|WF|2

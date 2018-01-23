@@ -16,6 +16,9 @@ private:
 public:
     Grade();
     Grade(int grade, Subject subject);
+
+    string get_grade();
+    Subject get_subject();
 };
 
 

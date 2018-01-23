@@ -22,6 +22,8 @@ public:
     void print_me();
     void small_print();
 
+    void print_group();
+
     void add_subject_to_group(Subject_manager subject_manager);
 
     void load(string filename);

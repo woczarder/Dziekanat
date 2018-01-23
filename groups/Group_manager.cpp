@@ -71,6 +71,13 @@ void Group_manager::print_me() {
     cout << endl << endl;
 }
 
+void Group_manager::print_group() {
+    cout << "printing..." << endl;
+    small_print();
+
+    cout << endl << endl;
+}
+
 void Group_manager::edit() {
     cout << "They are printed below. Which one do you want to edit?" << endl;
     small_print();

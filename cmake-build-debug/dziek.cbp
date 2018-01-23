@@ -8,152 +8,156 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug"/>
+				<Option working_dir="C:/Users/wojta/Dropbox/Projects/C++/dziek/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/wojta/Dropbox/Projects/C++/dziek/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/wojta/Dropbox/Projects/C++/dziek/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/wojta/Dropbox/Projects/C++/dziek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/wojta/Dropbox/Projects/C++/dziek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="dziek">
-				<Option output="/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/dziek" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug"/>
+				<Option output="C:/Users/wojta/Dropbox/Projects/C++/dziek/cmake-build-debug/dziek.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/wojta/Dropbox/Projects/C++/dziek/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/Makefile&quot;  VERBOSE=1 dziek"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/wojta/Dropbox/Projects/C++/dziek/cmake-build-debug/Makefile&quot;  VERBOSE=1 dziek"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/wojta/Dropbox/Projects/C++/dziek/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/wojta/Dropbox/Projects/C++/dziek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/wojta/Dropbox/Projects/C++/dziek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="dziek/fast">
-				<Option output="/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/dziek" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug"/>
+				<Option output="C:/Users/wojta/Dropbox/Projects/C++/dziek/cmake-build-debug/dziek.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/wojta/Dropbox/Projects/C++/dziek/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/Makefile&quot;  VERBOSE=1 dziek/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ceglarz/Dropbox/Projects/C++/dziek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/wojta/Dropbox/Projects/C++/dziek/cmake-build-debug/Makefile&quot;  VERBOSE=1 dziek/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/wojta/Dropbox/Projects/C++/dziek/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/wojta/Dropbox/Projects/C++/dziek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/wojta/Dropbox/Projects/C++/dziek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/wojta/Dropbox/Projects/C++/dziek/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/wojta/Dropbox/Projects/C++/dziek/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/wojta/Dropbox/Projects/C++/dziek/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/wojta/Dropbox/Projects/C++/dziek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/wojta/Dropbox/Projects/C++/dziek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/wojta/Dropbox/Projects/C++/dziek/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/wojta/Dropbox/Projects/C++/dziek/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/wojta/Dropbox/Projects/C++/dziek/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/wojta/Dropbox/Projects/C++/dziek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/wojta/Dropbox/Projects/C++/dziek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/ceglarz/Dropbox/Projects/C++/dziek/grades/Grade.cpp">
+		<Unit filename="C:/Users/wojta/Dropbox/Projects/C++/dziek/grades/Grade.cpp">
 			<Option target="dziek"/>
 		</Unit>
-		<Unit filename="/home/ceglarz/Dropbox/Projects/C++/dziek/grades/Grade.h">
+		<Unit filename="C:/Users/wojta/Dropbox/Projects/C++/dziek/grades/Grade.h">
 			<Option target="dziek"/>
 		</Unit>
-		<Unit filename="/home/ceglarz/Dropbox/Projects/C++/dziek/groups/Group.cpp">
+		<Unit filename="C:/Users/wojta/Dropbox/Projects/C++/dziek/grades/Grade_manager.cpp">
 			<Option target="dziek"/>
 		</Unit>
-		<Unit filename="/home/ceglarz/Dropbox/Projects/C++/dziek/groups/Group.h">
+		<Unit filename="C:/Users/wojta/Dropbox/Projects/C++/dziek/grades/Grade_manager.h">
 			<Option target="dziek"/>
 		</Unit>
-		<Unit filename="/home/ceglarz/Dropbox/Projects/C++/dziek/groups/Group_manager.cpp">
+		<Unit filename="C:/Users/wojta/Dropbox/Projects/C++/dziek/groups/Group.cpp">
 			<Option target="dziek"/>
 		</Unit>
-		<Unit filename="/home/ceglarz/Dropbox/Projects/C++/dziek/groups/Group_manager.h">
+		<Unit filename="C:/Users/wojta/Dropbox/Projects/C++/dziek/groups/Group.h">
 			<Option target="dziek"/>
 		</Unit>
-		<Unit filename="/home/ceglarz/Dropbox/Projects/C++/dziek/main.cpp">
+		<Unit filename="C:/Users/wojta/Dropbox/Projects/C++/dziek/groups/Group_manager.cpp">
 			<Option target="dziek"/>
 		</Unit>
-		<Unit filename="/home/ceglarz/Dropbox/Projects/C++/dziek/people/Manager.cpp">
+		<Unit filename="C:/Users/wojta/Dropbox/Projects/C++/dziek/groups/Group_manager.h">
 			<Option target="dziek"/>
 		</Unit>
-		<Unit filename="/home/ceglarz/Dropbox/Projects/C++/dziek/people/Manager.h">
+		<Unit filename="C:/Users/wojta/Dropbox/Projects/C++/dziek/main.cpp">
 			<Option target="dziek"/>
 		</Unit>
-		<Unit filename="/home/ceglarz/Dropbox/Projects/C++/dziek/people/Person.cpp">
+		<Unit filename="C:/Users/wojta/Dropbox/Projects/C++/dziek/people/Manager.cpp">
 			<Option target="dziek"/>
 		</Unit>
-		<Unit filename="/home/ceglarz/Dropbox/Projects/C++/dziek/people/Person.h">
+		<Unit filename="C:/Users/wojta/Dropbox/Projects/C++/dziek/people/Manager.h">
 			<Option target="dziek"/>
 		</Unit>
-		<Unit filename="/home/ceglarz/Dropbox/Projects/C++/dziek/people/students/Student.cpp">
+		<Unit filename="C:/Users/wojta/Dropbox/Projects/C++/dziek/people/Person.cpp">
 			<Option target="dziek"/>
 		</Unit>
-		<Unit filename="/home/ceglarz/Dropbox/Projects/C++/dziek/people/students/Student.h">
+		<Unit filename="C:/Users/wojta/Dropbox/Projects/C++/dziek/people/Person.h">
 			<Option target="dziek"/>
 		</Unit>
-		<Unit filename="/home/ceglarz/Dropbox/Projects/C++/dziek/people/students/Student_manager.cpp">
+		<Unit filename="C:/Users/wojta/Dropbox/Projects/C++/dziek/people/students/Student.cpp">
 			<Option target="dziek"/>
 		</Unit>
-		<Unit filename="/home/ceglarz/Dropbox/Projects/C++/dziek/people/students/Student_manager.h">
+		<Unit filename="C:/Users/wojta/Dropbox/Projects/C++/dziek/people/students/Student.h">
 			<Option target="dziek"/>
 		</Unit>
-		<Unit filename="/home/ceglarz/Dropbox/Projects/C++/dziek/people/teachers/Teacher.cpp">
+		<Unit filename="C:/Users/wojta/Dropbox/Projects/C++/dziek/people/students/Student_manager.cpp">
 			<Option target="dziek"/>
 		</Unit>
-		<Unit filename="/home/ceglarz/Dropbox/Projects/C++/dziek/people/teachers/Teacher.h">
+		<Unit filename="C:/Users/wojta/Dropbox/Projects/C++/dziek/people/students/Student_manager.h">
 			<Option target="dziek"/>
 		</Unit>
-		<Unit filename="/home/ceglarz/Dropbox/Projects/C++/dziek/people/teachers/Teacher_manager.cpp">
+		<Unit filename="C:/Users/wojta/Dropbox/Projects/C++/dziek/people/teachers/Teacher.cpp">
 			<Option target="dziek"/>
 		</Unit>
-		<Unit filename="/home/ceglarz/Dropbox/Projects/C++/dziek/people/teachers/Teacher_manager.h">
+		<Unit filename="C:/Users/wojta/Dropbox/Projects/C++/dziek/people/teachers/Teacher.h">
 			<Option target="dziek"/>
 		</Unit>
-		<Unit filename="/home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject.cpp">
+		<Unit filename="C:/Users/wojta/Dropbox/Projects/C++/dziek/people/teachers/Teacher_manager.cpp">
 			<Option target="dziek"/>
 		</Unit>
-		<Unit filename="/home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject.h">
+		<Unit filename="C:/Users/wojta/Dropbox/Projects/C++/dziek/people/teachers/Teacher_manager.h">
 			<Option target="dziek"/>
 		</Unit>
-		<Unit filename="/home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject_manager.cpp">
+		<Unit filename="C:/Users/wojta/Dropbox/Projects/C++/dziek/subjects/Subject.cpp">
 			<Option target="dziek"/>
 		</Unit>
-		<Unit filename="/home/ceglarz/Dropbox/Projects/C++/dziek/subjects/Subject_manager.h">
+		<Unit filename="C:/Users/wojta/Dropbox/Projects/C++/dziek/subjects/Subject.h">
 			<Option target="dziek"/>
 		</Unit>
-		<Unit filename="/home/ceglarz/Dropbox/Projects/C++/dziek/CMakeLists.txt">
+		<Unit filename="C:/Users/wojta/Dropbox/Projects/C++/dziek/subjects/Subject_manager.cpp">
+			<Option target="dziek"/>
+		</Unit>
+		<Unit filename="C:/Users/wojta/Dropbox/Projects/C++/dziek/subjects/Subject_manager.h">
+			<Option target="dziek"/>
+		</Unit>
+		<Unit filename="C:/Users/wojta/Dropbox/Projects/C++/dziek/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

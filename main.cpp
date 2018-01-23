@@ -4,6 +4,7 @@
 #include "people/teachers/Teacher.h"
 #include "subjects/Subject_manager.h"
 #include "groups/Group_manager.h"
+#include "grades/Grade_manager.h"
 
 using namespace std;
 
@@ -12,6 +13,7 @@ Manager<Student> student_manager;
 Manager<Teacher> teacher_manager;
 Subject_manager subject_manager;
 Group_manager group_manager;
+Grade_manager grade_manager;
 
 void menu(string choice);
 
@@ -93,4 +95,13 @@ void menu(string choice) {
         group_manager.save("groups.txt");
     if (choice == "45")
         group_manager.add_subject_to_group(subject_manager);
+
+    if (choice == "51")
+        subject_manager.print_me();
+    if (choice == "52")
+        subject_manager.edit();
+    if (choice == "53")
+        subject_manager.del();
+    if (choice == "54")
+        subject_manager.save("subjects.txt");
 }
